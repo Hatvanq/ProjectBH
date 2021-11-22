@@ -7,7 +7,7 @@ public class BulletSpawnData : ScriptableObject
     public float maxRotation;
     public int numberOfBullets;
     public bool isRandom;
-    public bool isNotParent;
+    public bool isNotParent = true;
     public float cooldown;
     public float bulletSpeed;
     public Vector2 bulletVelocity;

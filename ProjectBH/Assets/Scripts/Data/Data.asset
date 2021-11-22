@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7122b665e0c651347864f37d7a3d7a96, type: 3}
-  m_Name: Attack2
+  m_Name: Data
   m_EditorClassIdentifier: 
   bulletResource: {fileID: 7714668607414747661, guid: b4ce98a7dc64ef0409976c5c3a80e03f, type: 3}
-  minRotation: 0
-  maxRotation: 360
-  numberOfBullets: 36
+  minRotation: 135
+  maxRotation: 235
+  numberOfBullets: 16
   isRandom: 0
   isNotParent: 1
-  cooldown: 0.5
-  bulletSpeed: 4
+  cooldown: 1
+  bulletSpeed: 5
   bulletVelocity: {x: 1, y: 0}
