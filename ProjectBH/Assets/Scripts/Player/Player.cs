@@ -20,16 +20,15 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-            FindObjectOfType<GameManager>().EndGame();
-    }
-        /*if (collision.tag == "Bullet" && bulletTimer <= 0)
+        if (collision.tag == "Bullet" && bulletTimer <= 0)
         {
             hp -= 1;
             print(hp);
             bulletTimer = bulletCooldown;
         }
-        /*if (hp == 0)
+        if (hp < 1)
         {   
-            FindObjectType<GameManager>().EndGame();
-        }*/
+             FindObjectOfType<GameManager>().EndGame();
+        }
+    }
 }

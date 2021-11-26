@@ -16,7 +16,7 @@ MonoBehaviour:
   minRotation: 135
   maxRotation: 235
   numberOfBullets: 16
-  isRandom: 0
+  isRandom: 1
   isNotParent: 1
   cooldown: 1
   bulletSpeed: 5

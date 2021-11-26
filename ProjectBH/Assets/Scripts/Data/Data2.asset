@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Data2
   m_EditorClassIdentifier: 
   bulletResource: {fileID: 7714668607414747661, guid: b4ce98a7dc64ef0409976c5c3a80e03f, type: 3}
-  minRotation: 150
-  maxRotation: 250
-  numberOfBullets: 10
+  minRotation: 135
+  maxRotation: 235
+  numberOfBullets: 16
   isRandom: 0
-  isNotParent: 0
+  isNotParent: 1
   cooldown: 1
   bulletSpeed: 5
   bulletVelocity: {x: 1, y: 0}
